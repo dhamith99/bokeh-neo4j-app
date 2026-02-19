@@ -13,7 +13,7 @@ import os
 # Use environment variables for credentials (safer for hosting)
 NEO4J_URI = os.getenv("NEO4J_URI", "neo4j+s://a9ee61f9.databases.neo4j.io")
 NEO4J_USERNAME = os.getenv("NEO4J_USERNAME", "neo4j")
-NEO4J_PASSWORD = os.getenv("NEO4J_PASSWORD", "your_password_here")  # set in Render env
+NEO4J_PASSWORD = os.getenv("NEO4J_PASSWORD", "6Iciv9CtDJKBO3EkyKNpieOIJ8IbpAcqcsk72mO8Fvc")  # set in Render env
 NEO4J_DATABASE = os.getenv("NEO4J_DATABASE", "neo4j")
 
 driver = GraphDatabase.driver(
